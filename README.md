@@ -1,4 +1,4 @@
-# 🐚 My Command-Line-Interfaces awesome commands utilities
+# 🐚 My Command-Line-Interfaces awesome commands
 
 #### 🏷️ For Ops, SysOps, Support Application guys and any other technician ora learner 
 
