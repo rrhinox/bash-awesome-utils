@@ -1,8 +1,8 @@
-# 📦 My Vagrant useful and awesome command line for day by day!
+# 📦  Vagrant awesome command line for day by day!
 
 ## Intro & Documentation
 
-Vagrant is a tool for building complete development environments. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases development/production parity, and makes the ***"it works on my machine"*** excuse a relic of the past.
+Vagrant is a tool for building complete development environments. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases development/production parity, and makes the ***"it works on  machine"*** excuse a relic of the past.
 
 ***What is Vagrant?***
 Vagrant is the command line utility for managing the lifecycle of virtual machines. Isolate dependencies and their configuration within a single disposable and consistent environment.

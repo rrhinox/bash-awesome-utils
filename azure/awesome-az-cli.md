@@ -1,4 +1,4 @@
-# ☁️ My Az-cli useful and awesome command line for day by day!
+# ☁️  Az-cli awesome command line for day by day!
 
 ## Intro & Documentation
 

@@ -1,1 +1,1 @@
-# :octocat: My Git useful and awesome command line for day by day!
+# :octocat:  Git awesome command line for day by day!

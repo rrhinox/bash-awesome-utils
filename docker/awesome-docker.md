@@ -1,4 +1,4 @@
-# 🐋 My Docker useful and awesome command line for day by day!
+# 🐋  Docker awesome command line for day by day!
 
 ## Intro & Documentation
 

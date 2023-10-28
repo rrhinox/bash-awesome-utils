@@ -1,9 +1,9 @@
-# 🐚 My Command-Line-Interfaces awesome commands
+# 🐚  Command-Line-Interfaces awesome commands
 
 #### 🏷️ For Ops, SysOps, Support Application guys and any other technician ora learner 
 
 ## 🥅 Main Goal of the repo!
-This repository is mainly for tidying up my notes on the various commands and command line interfaces used throughout my career accompanied by use cases and practical examples for different contexts, environments, infrastructures and servers.
+This repository is mainly for tidying up  notes on the various commands and command line interfaces used throughout  career accompanied by use cases and practical examples for different contexts, environments, infrastructures and servers.
 
 ## 📁 Folder & Files
 Follow the link and choose the awesome cmd/cli file for more info and examples!

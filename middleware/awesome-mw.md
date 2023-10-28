@@ -1,1 +1,1 @@
-# ☕ My Middleware useful and awesome command line for day by day!
+# ☕  Middleware awesome command line for day by day!
