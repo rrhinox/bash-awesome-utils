@@ -19,11 +19,12 @@ Vagrant is the command line utility for managing the lifecycle of virtual machin
 
 [vcli]: https://developer.hashicorp.com/vagrant/docs/cli
 
-## Main command 
+## Main command
++ `vagrant validate` - This command validates your [Vagrantfile](https://developer.hashicorp.com/vagrant/docs/vagrantfile).
 + `vagrant up` - Start all VMs using Vagrantfile (please enter into vagrant-cluster/ folder before run this command)
-+ `vagrant status` - Check the status of the VM's
-+ `vagrant ssh vm` - Open ssh on target VM
-+ `vagrant destroy - Destroy specific instance or destroy all instances, without VM name
++ `vagrant status`  - Check the status of the VM's
++ `vagrant ssh vm`  - Open ssh on target VM
++ `vagrant destroy` - Destroy specific instance or destroy all instances, without VM name
 + `vagrant suspend` - A suspend effectively saves the exact point-in-time state of the machine, so that when you resume it later, it begins running immediately from that point, rather than doing a full boot.
 
 ## Example with some context
