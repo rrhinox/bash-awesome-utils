@@ -28,5 +28,23 @@ Vagrant is the command line utility for managing the lifecycle of virtual machin
 + `vagrant suspend` - A suspend effectively saves the exact point-in-time state of the machine, so that when you resume it later, it begins running immediately from that point, rather than doing a full boot.
 
 ## Example with some context
-WIP
 
+### Copy a file from local to vagrant host machine : 
+You need to transfer file or folder from your PC to Vagrant host and you need a solution.
+Here some good example summirized :
+1. Using vagrant plugin : 
+
+    + `vagrant plugin install vagrant-scp`
+    + `vagrant scp /data/examples/spring-boot webserver:/home/vagrant`
+        > `vagrant scp <some_local_file_or_dir> [vm_name]:<somewhere_on_the_vm>`
+
+2. Using classic scp command (findout the correct forward port in Virtualbox VM Settings > Network > First adapter > Forwarderd port) : 
+    
+    + File : `scp -P 2222 /data/examples/spring-boot/gs-spring-boot-master.zip vagrant@127.0.0.1:/home/vagrant` 
+    + Folder : `scp -P 2222 -r /data/examples/spring-boot vagrant@127.0.0.1:/home/vagrant`
+3. Using Vagrantfile provisioner  
+
+[Reference][refscp]
+
+[refscp]
+https://howtoprogram.xyz/2017/08/13/copy-files-folders-host-guest-vagrant/
