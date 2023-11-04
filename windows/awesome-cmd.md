@@ -1,1 +1,0 @@
-# 📦 Command-Line Shells awesome for day by day!
