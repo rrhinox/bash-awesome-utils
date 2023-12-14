@@ -45,7 +45,4 @@ Here some good example summirized :
     + Folder : `scp -P 2222 -r /data/examples/spring-boot vagrant@127.0.0.1:/home/vagrant`
 3. Using Vagrantfile provisioner  
 
-[Reference][refscp]
-
-[refscp]
-https://howtoprogram.xyz/2017/08/13/copy-files-folders-host-guest-vagrant/
+[Reference Link howtoprogram.com](https://howtoprogram.xyz/2017/08/13/copy-files-folders-host-guest-vagrant/)
