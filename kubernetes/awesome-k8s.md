@@ -28,6 +28,12 @@ Kubernetes is an open source container orchestration engine for automating deplo
 
 [Reference StackOverflow](https://stackoverflow.com/questions/35453792/pods-stuck-in-terminating-status)
 
+### Create a YAML template file for a deployment or pod without creating it (ex. in CKA/CKAD exam context)
+
+`kubectl create deployment --image=nginx nginx --dry-run=client -o yaml > nginx-deployment.yaml`
+
+`kubectl run nginx --image=nginx --dry-run=client -o yaml`
+
 
 
 
