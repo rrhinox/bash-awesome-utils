@@ -34,6 +34,7 @@ Kubernetes is an open source container orchestration engine for automating deplo
 
 `kubectl run nginx --image=nginx --dry-run=client -o yaml`
 
+### Troubleshooting Application commands
 
-
-
+#### Logs on previous pod
+`kubectl -n dev logs nginx-app -f --previous`
