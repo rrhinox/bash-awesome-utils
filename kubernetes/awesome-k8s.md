@@ -60,7 +60,7 @@ Output: Switched to context "docker-desktop".
 
 Output: Context "docker-desktop" modified.
 
-`kubectl.exe config get-contexts`
+`kubectl config get-contexts`
 
 [*] you also add this to a custom alias in .bashrc file like this:
 
