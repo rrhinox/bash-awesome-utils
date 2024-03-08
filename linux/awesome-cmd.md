@@ -17,12 +17,31 @@ Linux is typically packaged as a Linux distribution (distro), which includes the
 [Beginner Tutorial](https://www.linux.org/forums/linux-beginner-tutorials.123/)
 
 
-## Main command
+## Main (basic) commands 
 
+### Access over ssh
+`ssh -i /etc/pki/my-key.pem my-secure-server`
+
+### Folder
+`cd /opt/my/special/folder/to/enter` `ls -lrth /tmp`
+
+### Files
+`tail -f /var/log/syslog` `cat /etc/os-release`
+
+`mv file-folder-to-rename desired-new-file-folder-name`
+
+`cp file-to-copy /tmp/folder-to-copy/`
+
+### Server process, cpu, memory and ip
+`top` `ps aux` `ip addr` `vmstat` `free -h`
+
+### Disk
+`df -h` `du -h` 
 
 ## Example with some context
 
+### Execute command over ssh write output on local path 
 
-
+`ssh cluster1 'crictl logs b01edbe6f89ed' &> /opt/container.log`
 
 
