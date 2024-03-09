@@ -44,4 +44,5 @@ Linux is typically packaged as a Linux distribution (distro), which includes the
 
 `ssh cluster1 'crictl logs b01edbe6f89ed' &> /opt/container.log`
 
+#### *The `&>` in above's command redirects both the standard output and standard error.*
 
